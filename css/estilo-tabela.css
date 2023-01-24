@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+div.rolagem{
+    overflow-y: auto;
+    display: block;
+}
+
+table{ 
+    text-align: center;
+    width: 100%;
+    margin-top: 12px;
+    table-layout: fixed;
+    border: 2px solid #009CEB;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #009CEB;
+    color: #fff;    
+}
+
+tr:nth-child(even){
+    background: #00000010;
+}
+
+th, td{
+    font-size: 15px;
+    padding: 3px 5px;
+    border: 1px solid #fff;
+    width: 120px;
+}
+
+td{
+    font-size: 13px;
+}
+
+img.icone_botao_peq{
+    vertical-align: -3px;
+}
+
+a.img{
+    padding: 3px 25px;
+}
+
+a.imgdel{
+    padding: 3px 19px;
+}
+
+a.img:hover, a.imgdel:hover{
+    filter: drop-shadow(2px 1px 1px #00000088);
+}

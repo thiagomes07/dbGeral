@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.centro{
+    width: 60%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    background-color: #009CEB;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ #sucesso{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.voltar{
+    background-color: #19B2FF;
+    height: 20px;
+    margin-top: 20px;
+    padding: 9px 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: .2s;
+    box-shadow: 0px 0px 5px #0000004b;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.voltar:hover{
+    padding: 9px 16px;
+    box-shadow: 0px 0px 10px #00000060;
+    text-shadow: 0 0 3px #00000060;
+}
