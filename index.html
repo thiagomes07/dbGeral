@@ -49,7 +49,8 @@
                         <li><a href="pages/consultar/consultar-endereco.php" class="borda-corrigida">Endereço</a></li>
                         <li><a href="pages/consultar/consultar-endereco-cliente.php" class="borda-corrigida">Endereço de
                                 Cliente</a></li>
-                        <li><a href="pages/consultar/consultar-endereco-funcionario.php" class="borda-corrigida">Endereço
+                        <li><a href="pages/consultar/consultar-endereco-funcionario.php"
+                                class="borda-corrigida">Endereço
                                 de Funcionário</a></li>
                     </ul>
                 </li>
@@ -64,7 +65,8 @@
                         <li><a href="pages/atualizar/atualizar-endereco.php" class="borda-corrigida">Endereço</a></li>
                         <li><a href="pages/atualizar/atualizar-endereco-cliente.php" class="borda-corrigida">Endereço de
                                 Cliente</a></li>
-                        <li><a href="pages/atualizar/atualizar-endereco-funcionario.php" class="borda-corrigida">Endereço
+                        <li><a href="pages/atualizar/atualizar-endereco-funcionario.php"
+                                class="borda-corrigida">Endereço
                                 de Funcionário</a></li>
                     </ul>
                 </li>
@@ -88,30 +90,33 @@
         <section>
             <article>
                 <h1>Como usar:</h1>
+
                 <h2>Como Cadastrar?</h2>
                 <p>É muito simples, basta passar o mouse sobre a opção cadastrar logo acima, na barra azul-escura; ao
                     fazer isso, irá surgir uma bandeja de opções para que você possa selecionar o que deseja cadastrar
-                    no banco de dados. Selecionada a opção, basta preencher os campos de acordo com o que é solicitado.
+                    no banco de dados. Selecionada a opção, basta preencher os campos de acordo com o que for
+                    solicitado.
                     Observação: pode ser que o valor preenchido não seja compatível com o nosso banco de dados, nesse
-                    caso, acontecerá que o nome do campo irá sobrepor o valor inserido. Veja no exemplo:</p>
+                    caso, o nome do campo irá sobrepor o valor inserido. Veja no exemplo:</p>
                 <img src="images/demonstracao_cadastro.png" alt="Demonstração de cadastro" class="manualimg">
+
                 <h2>Como Consultar?</h2>
-                <p>Para encontrar qual tabela você deseja consultar, é como encontrar o que você deseja cadastrar (a
+                <p>Para buscar o item você deseja consultar, é como encontrar o que você deseja cadastrar (a
                     solução para esta questão foi apresentada no primeiro parágrafo); após selecionar o que você deseja
-                    consultar, será exibida uma tabela com todos os dados organizados do objeto selecionado. Note que é
+                    consultar, será exibida uma tabela com todos os dados organizados do item selecionado. Note que é
                     possível realizar uma pesquisa nessa tabela, filtrando-a dependendo do campo que houver: algumas
                     tabelas podem ser filtradas com CPF, outras com o Código de Barras, também é possível pesquisar
-                    utilizando mais de um campo, isso ocorre na tabela de vendas, por exemplo.</p>
+                    utilizando mais de um filtro, isso ocorre na tabela de vendas, por exemplo.</p>
                 <img src="images/demonstracao_consultar.png" alt="Demonstração de consulta" class="manualimggrande">
+
                 <h2>Como Atualizar?</h2>
-                <p>Para encontrar selecionar um objeto você já sabe, é só repetir o processo feito nos tópicos
-                    anteriores, selecionando a opção na qual estiver escrito "atualizar". Quando você escolher o objeto
-                    que deseja atualizar, será exibida uma tabela idêntica à tabela exibida quando é feita uma consulta,
+                <p>Selecione a opção na qual estiver escrito "atualizar". Quando você escolher o item
+                    que deseja editar, será exibida uma tabela idêntica à tabela de consulta,
                     há somente uma diferença: haverá uma célula com um botão para que você possa selecionar o registro a
-                    ser atualizado, após selecioná-lo, será exibido um formulário semelhante ao formulário de cadastro,
-                    com a diferença que este estará preenchido com os dados originais daquele registro, basta fazer as
-                    alterações desejadas e clicar em enviar, por último aparecerá uma nova página com uma mensagem
-                    dizendo se a atualização foi feita com sucesso e um botão para retornar á página de atualização.</p>
+                    ser atualizado, após selecioná-lo, será exibido um formulário semelhante ao formulário de cadastro
+                    preenchido com os dados originais daquele registro, basta fazer as
+                    alterações desejadas e clicar em enviar. Por último, aparecerá uma nova página com uma mensagem
+                    dizendo se a atualização foi feita com sucesso e um botão para retornar à página de atualização.</p>
                 <img src="images/demonstracao_atualizar.png" alt="Demonstração de atualização" class="manualimggrande">
                 <p>Alguns dados são impossíveis de serem atualizados por conta da estrutura do banco de dado. Também é
                     possível que haja um erro dependendo do dado que seja colocado, por exemplo: se for inserido um
@@ -120,17 +125,16 @@
                     verificações de segurança em nosso sistema impedindo que qualquer erro o prejudique.</p>
                 <img src="images/demonstracao_mensagem.png" alt="Demonstração de mensagem após atualização"
                     class="manualimgpequeno">
+
                 <h2>Como Deletar?</h2>
-                <p>O processo é semelhante ao processo de atualizar. Ao clicar na tabela na qual deseja-se deletar
-                    determinados registros, aparecerá uma página com uma lista de todos os registros daquela tabela, é
-                    como na página de atualização, com a diferença que, o botão terá o formato de uma lixeira; para
-                    deletar basta clicar na lixeira respectiva do registro do qual você quer se livrar.</p>
+                <p>O processo é semelhante ao de atualização, com a diferença que o botão terá o formato de uma lixeira.
+                    Para o deletar um campo, basta clicar na respectiva lixeira dele.</p>
                 <img src="images/demonstracao_deletar.png" alt="Demonstração de mensagem após atualização"
                     class="manualimggrande">
-                <p>Assim como na atualização de registros, pode ser que ocorra um erro ao tentar deletar um registro em
+                <p>Assim como na atualização de registros, pode ser que ocorra algum erro ao tentar deletar um registro em
                     uso. Por exemplo, caso você queira deletar um cliente que participou de uma venda, não será
-                    possível. Somente será possível deletar esse cliente se deletar as vendas nas quais ele participa;
-                    esse princípio funciona para todos os casos de impossibilidade remoção de registro.</p>
+                    possível. A exclusão desse cliente só será viável caso as vendas das quais ele participa sejam deletadas.
+                    Este princípio funciona para todos os casos de impossibilidade remoção de registro.</p>
                 <img src="images/demonstracao_mensagem_deletar.PNG" alt="Demonstração de mensagem após atualização"
                     class="manualimgpequenominimo">
             </article>
