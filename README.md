@@ -13,16 +13,6 @@ It was done in 2021 as a Database exercise, at the time I was studying SQl and h
 
 Access the Banco de Dados Geral through [this link](https://basegeral.000webhostapp.com/)!
 
-
-
-O Banco de Dados Geral é uma aplicação web experimental que consiste num CRUD com PHP e SQL, hospedado gratuitamente.
-
-Tem o objetivo ser um armazenamento no qual comerciantes de pequeno porte registram os dados do seu negócio. Na plataforma, o usuário pode registrar seus clientes, funcionários, endereços, produtos, vendas e fornecedores; após resgistrá-los, é possível consultá-los, editá-los ou deletá-los.
-
-Foi feito em 2021 como exercício de Banco de Dados, na época eu estava estudando SQl e tinha noções básicas de Javascript, HTML e CSS.
-
-Acesse o Banco de Dados Geral através [deste link](https://basegeral.000webhostapp.com/)!
-
 ---
 
 ## 💻 Technologies
